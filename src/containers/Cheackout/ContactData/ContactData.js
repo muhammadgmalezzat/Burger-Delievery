@@ -180,15 +180,6 @@ class ContactData extends Component {
             </form>
         );
 
-
-
-            // <form>
-            //     <Input elementType='...' elementConfig='...' value='...'/>
-            //     <Input label='name' elementType={ this.state.orderForm.address.elementType} />
-            //     <Input label='name' elementType={ this.state.orderForm.email.elementType} />
-            //     <Input label='name' elementType={ this.state.orderForm.phoneNumber.elementType}/>
-            //     <Button btnType="Success" clicked={this.orderHandler}>ORDER</Button>
-            // </form>
             if ( this.state.loading ) { form = <Spinner />; }
     return (
         <div className={Styles.ContactData}>

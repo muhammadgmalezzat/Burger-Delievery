@@ -210,12 +210,14 @@ class BurgerBuilder extends Component {
         
         return (
             <Auxiliary>
+                <Spinner />
                 
                 <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
                     {orderSummary}
                 </Modal>
 
                 {burger}
+                
             </Auxiliary>
     )
     }

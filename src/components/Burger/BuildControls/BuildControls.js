@@ -13,7 +13,7 @@ const BuildControls = ({ ingredientAdded, ingredientRemoved, price, purchasable 
     return (
         
         <div className={styles.BuildControls}>
-            <h1> Price : <strong>{price.toFixed(2)} $</strong> </h1>
+            <h1 > Price : <strong>{price.toFixed(2)} $</strong> </h1>
             {
                 controls.map((ctrl) => {
                     return (<BuildControl

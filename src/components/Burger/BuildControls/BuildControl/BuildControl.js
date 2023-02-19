@@ -11,7 +11,7 @@ const BuildControl = ({ added, label, removed,cost ,disabled}) => {
             <button className={styles.More} onClick={added}>
                 more
             </button>
-            <h3 >Cost : {cost} $</h3>
+            <h3 className={styles.cost}>Cost : {cost} $</h3>
         </div>
     )
 };

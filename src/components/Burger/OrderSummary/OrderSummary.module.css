@@ -1,0 +1,33 @@
+.order{
+    color: #fb000de4;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px ;
+  background-color:  rgba(226, 189, 85, 0.8);
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+h3{
+    color: #fb000de4;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+p{
+    margin-left: 10px;
+    color: black;
+}
+ul{
+    color: #673e0c;
+}
+h2{
+    margin-left: 10px;
+    color: #fb000de4;
+
+}
+.btns{
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}

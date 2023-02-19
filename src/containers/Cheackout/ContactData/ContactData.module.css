@@ -6,6 +6,9 @@
     display: block;
     border-radius: 10px ;
     box-shadow: 15px 15px 8px  #888888;
+    background-color:  rgba(215, 174, 59, 0.43);
+    margin-top: 20px;
+    padding-top: 20px;
 }
 .ContactData input{
     margin-top: 5px;
@@ -15,6 +18,7 @@
     border-radius: 10px;
     display:block;
     font-size: 20px;
+    color: #673e0c;
 }
 .ContactData form{
     margin-left: 20px;

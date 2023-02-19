@@ -2,6 +2,8 @@ import React from 'react';
 
 import classes from './Order.module.css';
 
+import BurgerOrder from '../../components/Burger/BurgerOrder/BurgerOrder'
+
 const order = (props) => {
     //console.log(props.ingredients)
     const ingredients = [];
@@ -30,8 +32,15 @@ const order = (props) => {
     console.log(ingredientOutput)
     return (
         <div className={classes.Order}>
-            <p>Ingredients: {ingredientOutput}</p>
-            <p>Price: <strong>USD {Number.parseFloat( props.price ).toFixed( 2 )}</strong></p>
+            {/* //<BurgerOrder ingredientsFromBuilderBurger={props.ingredients}/> */}
+            <div className={classes.details}>
+                <p>Ingredients: {ingredientOutput}</p>
+                <p>Price: <strong>USD {Number.parseFloat(props.price).toFixed(2)}</strong></p>
+            </div>
+            <div className={classes.burgger}>
+                <BurgerOrder style={{width:"20px  !important"}} ingredientsFromBuilderBurger={props.ingredients}/>
+            </div>
+            
         </div>
     );
 };

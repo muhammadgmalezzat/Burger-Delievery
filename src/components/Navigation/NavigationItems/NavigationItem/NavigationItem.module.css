@@ -3,21 +3,27 @@
     box-sizing: border-box;
     display: block;
     width: 100%;
+    border-radius: 20px;
 }
 
 .NavigationItem a {
-    color: #8F5C2C;
+    color: #fff;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
     display: block;
+    text-align: center;
+    padding: 10px;
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    color: #40A4C8;
+    color: #fff;
     font-weight: bold;
+    background-color: #FF1923;
+    border-radius: 20px;
+    text-align: center;
 }
 
 @media (min-width: 500px) {
@@ -30,17 +36,19 @@
     }
     
     .NavigationItem a {
-        color: white;
-        height: 100%;
-        padding: 16px 10px;
+        color: #fff;
+        padding: 10px;
         border-bottom: 4px solid transparent;
+        margin: 10px ;
+        border-radius: 26px;
+
     }
     
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigationItem a.active {
-        background-color: #8F5C2C;
-        border-bottom: 4px solid #40A4C8;
-        color: white;
+        background-color: #FF1923;
+        color: #fff;
+        
     }
 }

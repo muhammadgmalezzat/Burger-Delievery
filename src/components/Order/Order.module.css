@@ -1,8 +1,39 @@
 .Order {
-    width: 80%;
+    width: 70%;
     border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 5px 10px rgba(255, 199, 29, 0.609);
     padding: 10px;
     margin: 10px auto;
     box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    
 }
+.Order .details{
+width: 60%;
+margin: 0;
+}
+.Order .burgger{
+width: 30%;
+margin: 0;
+height: 100px;
+
+}
+
+@media (max-width: 500px) {
+    .Order .details{
+width: 100%;
+margin: 0;
+}
+.Order .burgger{
+width: 100%;
+margin: 0;
+height: 100px;
+
+}
+.Order {
+    width: 90%;
+}
+
+}
+

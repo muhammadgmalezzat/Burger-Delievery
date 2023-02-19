@@ -35,9 +35,12 @@
     font-weight: bold;
     width: 80px;
     font-size: 25px;
-    color: white;
+    color: #8F5E1E;
 }
-
+.cost{
+    color: #7E7365;
+    font-size: 15px;
+}
 .BuildControl .Less {  
     background-color: #D39952;
     color: white;
@@ -58,4 +61,13 @@
 .BuildControl .More:hover,.BuildControl .More:active {
     background-color: #99703F;
     color: white;
+}
+@media (max-width: 499px){
+    .Label{
+        font-size: 20px;
+        width: 60px;
+    }
+    .BuildControl button{
+        width: 60px;
+    }
 }
