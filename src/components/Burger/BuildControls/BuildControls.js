@@ -19,7 +19,6 @@ const BuildControls = ({ ingredientAdded, ingredientRemoved, price, purchasable 
                     return (<BuildControl
                         key={ctrl.label}
                         label={ctrl.label}
-                        //هنا الفانكشن اتعملها call
                         added={() => ingredientAdded(ctrl.type)}
                         removed={() => ingredientRemoved(ctrl.type)}
                         disabled={disabled[ctrl.type]}

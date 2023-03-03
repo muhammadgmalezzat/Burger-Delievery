@@ -5,7 +5,6 @@ import classes from './Order.module.css';
 import BurgerOrder from '../../components/Burger/BurgerOrder/BurgerOrder'
 
 const order = (props) => {
-    //console.log(props.ingredients)
     const ingredients = [];
 
     for ( let ingredientName in props.ingredients ) {
@@ -16,7 +15,6 @@ const order = (props) => {
             }
         );
     }
-    //console.log(ingredients)
     const ingredientOutput = ingredients.map(ig => {
         return <span 
             style={{
@@ -29,10 +27,8 @@ const order = (props) => {
                 }}
             key={ig.name}>{ig.name} ({ig.amount})</span>;
     });
-    console.log(ingredientOutput)
     return (
         <div className={classes.Order}>
-            {/* //<BurgerOrder ingredientsFromBuilderBurger={props.ingredients}/> */}
             <div className={classes.details}>
                 <p>Ingredients: {ingredientOutput}</p>
                 <p>Price: <strong>USD {Number.parseFloat(props.price).toFixed(2)}</strong></p>
