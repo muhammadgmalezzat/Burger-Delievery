@@ -18,7 +18,6 @@ class Orders extends Component {
         let orders = <Spinner />;
         if (!this.props.loading) {
             orders=this.props.orders.map(ord => (
-                    //console.log(ord.price)
                     <Order key={ord.id}
                         ingredients={ord.ingredients} price={ord.price}
                     />

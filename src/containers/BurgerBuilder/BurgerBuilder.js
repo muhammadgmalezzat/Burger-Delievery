@@ -58,7 +58,6 @@ class BurgerBuilder extends Component {
     //this function is to pass ingredients as object choosen to checkout page by URL
     purchaseContinueHandle = () => {
         this.props.onInitPurchase();
-        console.log('Purchase')
         this.props.history.push({pathname: "/checkout"});
     }
 //====================================================================

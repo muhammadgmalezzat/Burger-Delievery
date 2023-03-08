@@ -5,7 +5,6 @@ import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 const Burger = (props) => {
-    //console.log(props.ingredientsFromBuilderBurger)
     let transformedIngredients = Object.keys(props.ingredientsFromBuilderBurger)
         .map(igKey => {
             return [...Array(props.ingredientsFromBuilderBurger[igKey])]
