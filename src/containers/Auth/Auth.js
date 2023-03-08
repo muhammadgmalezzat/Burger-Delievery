@@ -149,7 +149,7 @@ class Auth extends Component {
                     {errorMessage}
                     <Button btnType="Success" >Submit</Button>
                     <p>Already have an account? </p>
-                    <Button clicked={this.switchAuthHandler} btnType="Danger" > Switch To{this.state.isSignup?'SignIn':'SignUp'}</Button>
+                    <Button clicked={this.switchAuthHandler} btnType="Danger" > Switch To {this.state.isSignup?'SignIn':'SignUp'}</Button>
                 </form>
             </div>
         )
