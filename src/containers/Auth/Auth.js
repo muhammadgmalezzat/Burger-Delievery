@@ -134,7 +134,7 @@ class Auth extends Component {
         let errorMessage = null;
         if (this.props.error) {
             errorMessage = (
-                <p style={{color:'#fb000de4' , fontFamily:'Fira Sans'}}>{ this.props.error.message}</p>
+                <p style={{ color: '#fb000de4', fontFamily: 'Fira Sans' }}>{this.props.error.message} please switch to {this.state.isSignup?'SignIn':'SignUp'} </p>
             )
         }
         let authReirect=null
