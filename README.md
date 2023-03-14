@@ -35,10 +35,10 @@ In the project directory, you can run:
 
 <div style="display:block; ">
   <h3 style="color:#facd8a ">Website Screenshot in mobile screen </h3>
-    <img src='Screenshoots/1.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >  
-    <img src='Screenshoots/2.jpg' width="40%" style="border-radius: 30px; margin: 20px;" > 
-    <img src='Screenshoots/4.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >
-    <img src='Screenshoots/7.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >
+    <img src='Screenshoots/1.jpg' width="40%" style="border-radius: 40px; margin: 30px;" >  
+    <img src='Screenshoots/2.jpg' width="40%" style="border-radius: 40px; margin: 30px;" > 
+    <img src='Screenshoots/4.jpg' width="40%" style="border-radius: 40px; margin: 30px;" >
+    <img src='Screenshoots/7.jpg' width="40%" style="border-radius: 40px; margin: 30px;" >
     
 </div>
 
