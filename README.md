@@ -1,15 +1,12 @@
 <h1 style="color:#facd8a ">Burger Delievery </h1>
+
+#### Burger Delievery app built with React and Redux
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-### `npm test`
-
-### `npm run build`
-
-### `npm run eject`
 
 
 <h1 style="color:#facd8a "> Front-end Technologies and liberaries </h1>
@@ -18,19 +15,26 @@ In the project directory, you can run:
     - CSS
     - JavaScript
     - React.js
-        - 
+    - Redux
+    - Authentication
     - material UI
-    - FireBase
+    - FireBase 
     - Axios
 
 
-  <h1 style="color:#facd8a "> features</h1>
-  
-    - 
+<h1 style="color:#facd8a "> Usage</h1>
+
+    - User can choose burger ingredients by pressing More and Less
+    - Then user must be signed in to make order
+    - User must signup with email
+    - Third user will go to checkout page to fill form
+    - User should enter true information in form to continue order
+    - User will return to main page for making burger
+    - User can see the orders in orders page    
 
 
 <div style="display:block; ">
-  <h3 style="color:#facd8a ">Full Website Screenshot</h3>
+  <h3 style="color:#facd8a ">Website Screenshot in mobile screen </h3>
     <!-- <img src='Screenshot/1.png' width="80%" style="border-radius: 30px; margin: 20px;" > -->
     
 </div>
