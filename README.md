@@ -35,7 +35,10 @@ In the project directory, you can run:
 
 <div style="display:block; ">
   <h3 style="color:#facd8a ">Website Screenshot in mobile screen </h3>
-    <!-- <img src='Screenshot/1.png' width="80%" style="border-radius: 30px; margin: 20px;" > -->
+    <img src='Screenshoots/1.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >  
+    <img src='Screenshoots/2.jpg' width="40%" style="border-radius: 30px; margin: 20px;" > 
+    <img src='Screenshoots/4.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >
+    <img src='Screenshoots/7.jpg' width="40%" style="border-radius: 30px; margin: 20px;" >
     
 </div>
 
@@ -45,4 +48,4 @@ In the project directory, you can run:
 
 <h1 style="color:#facd8a "> Check out Website Here </h1>
 
-> [Youtube video]()
+> [Youtube video](https://www.youtube.com/watch?v=7nq9xebmk40)
